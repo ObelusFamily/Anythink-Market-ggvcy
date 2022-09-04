@@ -7,8 +7,7 @@ const Banner = (props) => {
     ev.preventDefault();
     let title = ev.target.value;
 
-    if (title.length < 3)
-      title = "";
+    if (title.length < 3) title = "";
 
     props.onItemSearch(
       title,
