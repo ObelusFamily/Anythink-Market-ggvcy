@@ -59,3 +59,26 @@ body {
 .user-info {
   min-width: 800px;
 }
+
+.search-bar #search-box {
+  padding-right: 2rem;
+}
+
+.search-bar .search-icon {
+  position: absolute;
+  z-index: 3;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+  right: 15px;
+  top: 0;
+}
+
+.search-bar .search-icon .ion-search {
+  font-size: 1.6em;
+  color: purple;
+}
